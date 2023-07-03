@@ -12,6 +12,8 @@ let adTagUrl;
 /**
  * Initializes IMA setup.
  */
+
+/* global google */
 export async function init(videoContentEle, playButtonEle, adContainerEle, _adTagUrl) {
     if (!_adTagUrl) return;
     // await loadIMASdk();
